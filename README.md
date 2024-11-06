@@ -13,4 +13,7 @@ Følgense kommando kan køres i docker for at starte en container på port 8000 
 ## Lav queries på data i python
 Splunk sdk'en skal installeres før det kan køres. Lav evt. et environment og kør derefter kommandoen `pip install splunk-sdk` i roden på python projektet <br>
 
-[Splunkservice](pythonApp\splunkservice.py) filen indeholder en simpel query. Ved at køre kommandoen `python splunkservice.py` fra et kommandprompt i den sti filen ligger i vil den hente data **More description to come
+[SplunkQuery](pythonApp\splunkQuery.py) filen indeholder en simpel query. Ved at køre kommandoen `python splunkservice.py` fra et kommandprompt i den sti filen ligger i vil den hente data ud fra den searchQuery der er angivet <br>
+[SplunkInput](pythonApp\splunkInput.py) indsætter noget sample data i database <br>
+
+Begge filer bruger Splunk sdk i python
