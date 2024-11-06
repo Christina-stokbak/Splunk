@@ -1,7 +1,6 @@
 import splunklib.client as client
 import json
 
-# Define connection details
 HOST = "localhost"
 PORT = 8089  # Splunk management port
 USERNAME = "admin"
@@ -15,7 +14,6 @@ service = client.connect(
     password=PASSWORD
 )
 
-# Define the data to index
 event_data = {
     "event": "This is a sample event",
     "sourcetype": "custom_sourcetype",
