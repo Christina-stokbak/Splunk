@@ -6,7 +6,7 @@ Splunk Enterprise kan downloades [her](https://www.splunk.com/en_us/download/spl
 
 ## Docker
 Følgense kommando kan køres i docker for at starte en container på port 8000 med Splunk Enterprise <br>
-``docker run -d -p 8000:8000 -e "SPLUNK_START_ARGS=--accept-license" -e "SPLUNK_PASSWORD=<password>" --name splunk splunk/splunk:latest`` <br>
+``docker run -d -p 8000:8000 -p 8089:8089 -e "SPLUNK_START_ARGS=--accept-license" -e "SPLUNK_PASSWORD=<password>" --name splunk splunk/splunk:latest`` <br>
 - Brugernavn: admin
 - Password: Det password der indsættes i kommandoen
 
