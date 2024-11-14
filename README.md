@@ -17,3 +17,6 @@ Splunk sdk'en skal installeres før det kan køres. Lav evt. et environment og k
 [SplunkInput](pythonApp\splunkInput.py) indsætter noget sample data i database <br>
 
 Begge filer bruger Splunk sdk i python
+
+## Google slide
+Link til slides [her](https://docs.google.com/presentation/d/1QctjEg65cHIXXoDP1etrsFnyQKMvLm3d9pSsID-GNcw/edit?usp=sharing)
